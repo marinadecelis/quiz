@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 app.use(favicon(__dirname + '/public/favicon.ico'));
-app.use('/', routes);
+//app.use('/', routes);
 
 
 app.use(logger('dev'));
